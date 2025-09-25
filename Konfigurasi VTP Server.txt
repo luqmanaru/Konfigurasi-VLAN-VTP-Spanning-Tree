@@ -1,0 +1,6 @@
+Switch> enable
+Switch# configure terminal
+Switch(config)# vtp domain mynetwork
+Switch(config)# vtp mode server
+Switch(config)# vtp password securepass
+Switch(config)# exit
