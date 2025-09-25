@@ -1,0 +1,5 @@
+Switch> enable
+Switch# configure terminal
+Switch(config)# vtp domain mynetwork
+Switch(config)# vtp mode transparent
+Switch(config)# exit
