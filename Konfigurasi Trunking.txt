@@ -1,0 +1,6 @@
+Switch> enable
+Switch# configure terminal
+Switch(config)# interface fa0/1
+Switch(config-if)# switchport mode trunk
+Switch(config-if)# switchport trunk encapsulation dot1q
+Switch(config-if)# exit
