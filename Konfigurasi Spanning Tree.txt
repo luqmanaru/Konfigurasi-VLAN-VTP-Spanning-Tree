@@ -1,0 +1,6 @@
+Switch> enable
+Switch# configure terminal
+Switch(config)# spanning-tree mode rapid-pvst
+Switch(config)# spanning-tree vlan 10 priority 4096
+Switch(config)# spanning-tree vlan 20 priority 8192
+Switch(config)# exit
